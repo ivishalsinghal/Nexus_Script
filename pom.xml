@@ -4,7 +4,7 @@
   <groupId>com.tcs</groupId>
   <artifactId>Project_One_Nexus</artifactId>
   <packaging>war</packaging>
-  <version>0.1</version>
+  <version>0.2</version>
   <name>Project1</name>
   <url>http://maven.apache.org</url>
   <properties>
