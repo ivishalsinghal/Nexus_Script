@@ -39,11 +39,6 @@
     <finalName>Project_One_Nexus</finalName>
   </build>
   
-  <distributionManagement>
- 		 <repository>
-    		<id>UC1_Nexus</id>
-    		<url>http://45.114.76.140:8183/nexus/content/repositories/UC1_Nexus</url>
-  		</repository>
-	</distributionManagement>
+  
 	
 </project>
