@@ -2,10 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.tcs</groupId>
-  <artifactId>DummyApplication</artifactId>
+  <artifactId>Proj_1</artifactId>
   <packaging>war</packaging>
-  <version>1.622</version>
-  <name>DummyApplication Maven Webapp</name>
+  <version>0.1</version>
+  <name>Project1</name>
   <url>http://maven.apache.org</url>
   <properties>
 	<spring.version>4.0.1.RELEASE</spring.version>
@@ -28,7 +28,12 @@
 		<artifactId>spring-web</artifactId>
 		<version>${spring.version}</version>
 	</dependency>
-
+	<distributionManagement>
+ 		 <repository>
+    		<id>UC1_Nexus</id>
+    		<url>http://45.114.76.140:8183/nexus/content/repositories/UC1_Nexus</url>
+  		</repository>
+	</distributionManagement>
 	<dependency>
 		<groupId>org.springframework</groupId>
 		<artifactId>spring-webmvc</artifactId>
@@ -36,6 +41,6 @@
 	</dependency>
   </dependencies>
   <build>
-    <finalName>DummyApplication</finalName>
+    <finalName>Project_One_Nexus</finalName>
   </build>
 </project>
